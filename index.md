@@ -2,8 +2,8 @@
 title: Koala Bear - Resume
 layout: default
 # Main Screen
-first-name: Koala
-last-name: Bear
+first-name: Bear
+last-name: Koala
 mobile: (317) 585-8468
 address: 3542 Berry Street
 region: Cheyenne Wells, CO
