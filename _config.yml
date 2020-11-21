@@ -1,18 +1,10 @@
 # Global Data
-interests: "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking."
-experiences: _experiences
-educations: _educations
-skills: _skills
-awards: _awards
 collections:
-  experiences:
-    output: false
-  educations:
-    output: false
-  skills:
-    output: false
-  awards:
-    output: false
+  - experiences
+  - educations
+  - skills
+  - awards
+interests: "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking."
 # Where things are
 source              : .
 destination         : ./_site
