@@ -4,6 +4,12 @@ experiences: _experiences
 educations: _educations
 skills: _skills
 awards: _awards
+collections_dir: _collections
+collections:
+  - experiences
+  - educations
+  - skills
+  - awards
 # Where things are
 source              : .
 destination         : ./_site
