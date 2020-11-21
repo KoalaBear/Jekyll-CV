@@ -45,7 +45,121 @@
             </div>
         </nav>
         <!-- Page Content-->
-
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        {{ page.last-name }}
+                        <span class="text-primary">{{ page.first-name }}</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        {{ page.address }} · {{ page.region }} · {{ page.mobile }} ·
+                        <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+                    </div>
+                    <p class="lead mb-5">{{ page.summary }}</p>
+                    <div class="social-icons">
+                        {% if page.linkedin != ""}
+                        <a class="social-icon" href="{{ page.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+                        {% endif %}
+                        {% if page.github != ""}
+                        <a class="social-icon" href="{{ page.github }}"><i class="fab fa-github"></i></a>
+                        {% endif %}
+                        {% if page.twitter != ""}
+                        <a class="social-icon" href="{{ page.twitter }}"><i class="fab fa-twitter"></i></a>
+                        {% endif %}
+                        {% if page.facebook != ""}
+                        <a class="social-icon" href="{{ page.facebook }}"><i class="fab fa-facebook-f"></i></a>
+                        {% endif %}
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            {% if page.experience-section != 0 %}
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    {% for experince in site.experiences %}
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">{{ experince.title }}</h3>
+                            <div class="subheading mb-3">{{ experince.subtitle }}</div>
+                            <p>{{ experince.paragraph }}</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">{{ experince.time }}</span></div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+            <hr class="m-0" />
+            {% endif %}
+            <!-- Education-->
+            {% if page.education-section != 0 %}
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    {% for education in site.educations %}
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">{{ education.title }}</h3>
+                            <div class="subheading mb-3">{{ education.subtitle }}</div>
+                            <p>{{ education.paragraph }}</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+            <hr class="m-0" />
+            {% endif %}
+            <!-- Skills-->
+            {% if page.skills-section != 0 %}
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    {% for skill in site.skills %}
+                    <div class="subheading mb-3">{{ skill.title }}</div>
+                    <ul class="fa-ul mb-0">
+                        {% for feature in skill.features %}
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            {{ feature.text }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endfor %}
+                </div>
+            </section>
+            <hr class="m-0" />
+            {% endif %}
+            <!-- Interests-->
+            {% if page.interests-section != 0 %}
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    {{ site.interests }}
+                </div>
+            </section>
+            <hr class="m-0" />
+            {% endif %}
+            <!-- Awards-->
+            {% if page.awards-section != 0 %}
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        {% for cert in site.awards %}
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            {{ cert.title }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </section>
+            {% endif %}
+        </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
