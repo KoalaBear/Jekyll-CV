@@ -121,8 +121,7 @@
                     {% for skill in site.skills %}
                     <div class="subheading mb-3">{{ skill.title }}</div>
                     <ul class="fa-ul mb-0">
-                        {% assign features = skill.content | split: '\n' %}
-                        {% for feature in features %}
+                        {% for feature in skill.features %}
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
                             {{ feature.text }}
