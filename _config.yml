@@ -8,7 +8,7 @@ interests: "Apart from being a web developer, I enjoy most of my time being outd
 # Where things are
 source              : .
 destination         : ./_site
-collections_dir     : .
+collections_dir     : _collections
 plugins_dir         : _plugins # takes an array of strings and loads plugins in that order
 layouts_dir         : _layouts
 data_dir            : _data
