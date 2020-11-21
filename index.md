@@ -1,4 +1,5 @@
 ---
+layout: default
 # Main Screen
 title: Koala Bear - Resume
 first-name: Koala
