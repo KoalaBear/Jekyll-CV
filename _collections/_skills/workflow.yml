@@ -1,6 +1,4 @@
 ---
 title: Workflow
-features:
-  - Mobile-First
-  - Responsive Design
+{% assign features = "Mobile-First/\Responsive Design" | split: '/\' %}
 ---
