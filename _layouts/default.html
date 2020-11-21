@@ -47,34 +47,7 @@
         <!-- Page Content-->
         <div class="container-fluid p-0">
             <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        {{ page.last-name }}
-                        <span class="text-primary">{{ page.first-name }}</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        {{ page.address }} · {{ page.region }} · {{ page.mobile }} ·
-                        <a href="mailto:{{ page.email }}">{{ page.email }}</a>
-                    </div>
-                    <p class="lead mb-5">{{ page.summary }}</p>
-                    <div class="social-icons">
-                        {% if page.linkedin != ""}
-                        <a class="social-icon" href="{{ page.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
-                        {% endif %}
-                        {% if page.github != ""}
-                        <a class="social-icon" href="{{ page.github }}"><i class="fab fa-github"></i></a>
-                        {% endif %}
-                        {% if page.twitter != ""}
-                        <a class="social-icon" href="{{ page.twitter }}"><i class="fab fa-twitter"></i></a>
-                        {% endif %}
-                        {% if page.facebook != ""}
-                        <a class="social-icon" href="{{ page.facebook }}"><i class="fab fa-facebook-f"></i></a>
-                        {% endif %}
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
+
             <!-- Experience-->
             {% if page.experience-section != 0 %}
             <section class="resume-section" id="experience">
