@@ -46,6 +46,9 @@
         </nav>
         <!-- Page Content-->
         <div class="container-fluid p-0">
+            {% for collection in site.collections %}
+            {{ collection }}
+            {% endfor %}
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
