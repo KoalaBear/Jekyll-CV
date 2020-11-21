@@ -59,10 +59,18 @@
                     </div>
                     <p class="lead mb-5">{{ page.summary }}</p>
                     <div class="social-icons">
-                        {% if page.linkedin != ''}<a class="social-icon" href="{{ page.linkedin }}"><i class="fab fa-linkedin-in"></i></a>{% endif %}
-                        {% if page.github != ''}<a class="social-icon" href="{{ page.github }}"><i class="fab fa-github"></i></a>{% endif %}
-                        {% if page.twitter != ''}<a class="social-icon" href="{{ page.twitter }}"><i class="fab fa-twitter"></i></a>{% endif %}
-                        {% if page.facebook != ''}<a class="social-icon" href="{{ page.facebook }}"><i class="fab fa-facebook-f"></i></a>{% endif %}
+                        {% if page.linkedin != ''}
+                        <a class="social-icon" href="{{ page.linkedin }}"><i class="fab fa-linkedin-in"></i></a>
+                        {% endif %}
+                        {% if page.github != ''}
+                        <a class="social-icon" href="{{ page.github }}"><i class="fab fa-github"></i></a>
+                        {% endif %}
+                        {% if page.twitter != ''}
+                        <a class="social-icon" href="{{ page.twitter }}"><i class="fab fa-twitter"></i></a>
+                        {% endif %}
+                        {% if page.facebook != ''}
+                        <a class="social-icon" href="{{ page.facebook }}"><i class="fab fa-facebook-f"></i></a>
+                        {% endif %}
                     </div>
                 </div>
             </section>
@@ -160,5 +168,4 @@
         <!-- Core theme JS-->
         <script src="assets/js/scripts.js"></script>
     </body>
-    {% endif %}
 </html>
