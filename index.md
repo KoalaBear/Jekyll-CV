@@ -18,5 +18,5 @@ experience-section: 1
 education-section: 1
 skills-section: 1
 interests-section: 1
-awards-section: 1
+awards-section: 0
 ---
