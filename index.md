@@ -1,6 +1,7 @@
 ---
-# Main Screen
 title: Koala Bear - Resume
+layout: default
+# Main Screen
 first-name: Koala
 last-name: Bear
 mobile: (317) 585-8468
