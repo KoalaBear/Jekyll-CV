@@ -1,14 +1,15 @@
 ---
-title: Koala Bear - Resume
+title: Koala Bear - CV
 layout: default
 # Main Screen
 first-name: Bear
 last-name: Koala
 mobile: (317) 585-8468
-address: 3542 Berry Street
-region: Cheyenne Wells, CO
-email: name@mail.com
-summary: I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+address: Tall Eucalypt Forest
+region: South Australia, AU
+email: koalabeardevelopments@gmail.com
+summary: I'm an experienced Software Engineer, which mainly works in Web Development & Python based projects. Had also done a couple of projects in Android(native-java), WPF & Unity2D(C#), RPi, Bots & Game Hacking for whitehat/learning purposes (Python), Graphic Design (Photoshop), Source™ maps(Hammer) and more:)
+I really like diversifying in both the projects I take & the technologies I use! projects are my passion.
 linkedin: ""
 github: "https://github.com/koalabear"
 twitter: ""

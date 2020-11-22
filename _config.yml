@@ -4,7 +4,7 @@ collections:
   - educations
   - skills
   - awards
-interests: "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking."
+interests: "Apart from being a developer, I enjoy most of my time with my friends & family. I also spend my time playing American Pool, an Electric Guitar, a Ukulele, and an instance of Netflix! I'm also a big fan of Rock Music, Digital & Street Art"
 # Where things are
 source              : .
 destination         : ./_site
