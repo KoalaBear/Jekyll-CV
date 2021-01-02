@@ -35,6 +35,9 @@
                     {% if page.skills-section != 0 %}
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     {% endif %}
+                    {% if page.projects-section != 0 %}
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    {% endif %}
                     {% if page.interests-section != 0 %}
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     {% endif %}
@@ -108,6 +111,26 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">{{ education.time }}</span></div>
                     </div>
+                    {% endfor %}
+                </div>
+            </section>
+            <hr class="m-0" />
+            {% endif %}
+            <!-- Projects -->
+            {% if page.projects-section != 0 %}
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projects</h2>
+                    {% for project in site.projects %}
+                    <div class="subheading mb-3">{{ project.title }}</div>
+                    <ul class="fa-ul mb-0">
+                        {% for feature in project.features %}
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            {{ feature }}
+                        </li>
+                        {% endfor %}
+                    </ul>
                     {% endfor %}
                 </div>
             </section>
