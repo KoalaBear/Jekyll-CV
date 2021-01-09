@@ -1,14 +1,14 @@
 ---
 title: Software Related
 features:
-  - Windows Presentation Forms(WPF)
-  - WordPress & Laravel (PHP)
-  - Electronics & IOT (RPi, Python & Flask)
-  - Bots & Game Hacking (Python & CE)
-  - Android (Native using Java)
-  - Selenium (Python)
-  - Laravel (PHP)
-  - Cisco IOS
-  - Computer Networking
-  - Chrome Extension Development 
+  - Internet Of Things [RPi, Python, Flask, Django]
+  - Bots & Game Hacking [Python, CE]
+  - Computer Networking [Python, Golang]
+  - Laravel, WordPress [PHP]
+  - Front End Development [Bootstrap, HTML, CSS, JS]
+  - Android [Java]
+  - Selenium [Python]
+  - Network Administration [Cisco IOS]
+  - Windows Presentation Forms (WPF)
+  - Chrome Extension Development [JS]
 ---
