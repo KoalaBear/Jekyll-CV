@@ -89,7 +89,7 @@
         <section class="resume-section" id="experience">
             <div class="resume-section-content">
                 <h2 class="mb-5">Experience</h2>
-                {% for experince in site.experiences %}
+                {% for experince in site.experiences reversed %}
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-3">{{ experince.title }}</h3>

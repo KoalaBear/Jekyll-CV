@@ -2,10 +2,11 @@
 title: Software Related
 features:
   - Internet Of Things [RPi, Python, Flask, Django]
-  - Bots & Game Hacking [Python, CE]
   - Computer Networking [Python, Golang]
-  - Laravel, WordPress [PHP]
   - Front End Development [Bootstrap, HTML, CSS, JS]
+  - Bots & Game Hacking [Python, CE]
+  - Laravel, WordPress [PHP]
+  - Databases [Elastic, Redis, MySql, SQLite]
   - Android [Java]
   - Selenium [Python]
   - Network Administration [Cisco IOS]
