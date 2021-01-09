@@ -92,7 +92,7 @@
                 {% for experince in site.experiences %}
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
-                        <h3 class="mb-0">{{ experince.title }}</h3>
+                        <h3 class="mb-3">{{ experince.title }}</h3>
                         <div class="subheading mb-3">{{ experince.subtitle }}</div>
                         <p>{{ experince.paragraph }}</p>
                     </div>
@@ -128,15 +128,17 @@
             <div class="resume-section-content">
                 <h2 class="mb-5">Projects</h2>
                 {% for project in site.projects %}
-                <div class="subheading mb-3">{{ project.title }}</div>
-                <ul class="fa-ul mb-0">
-                    {% for feature in project.features %}
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        {{ feature }}
-                    </li>
-                    {% endfor %}
-                </ul>
+                <div class="project mb-3">
+                    <div class="subheading mb-0">{{ project.title }}</div>
+                    <ul class="fa-ul mb-0">
+                        {% for feature in project.features %}
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            {{ feature }}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
                 {% endfor %}
             </div>
         </section>
@@ -147,9 +149,9 @@
         <section class="resume-section" id="skills">
             <div class="resume-section-content">
                 <h2 class="mb-5">Skills</h2>
-                {% for skill in site.skills %}
+                {% for skill in site.skills reversed %}
                 <div class="subheading mb-3">{{ skill.title }}</div>
-                <ul class="fa-ul mb-0">
+                <ul class="fa-ul mb-3">
                     {% for feature in skill.features %}
                     <li>
                         <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -177,7 +179,7 @@
         <section class="resume-section" id="awards">
             <div class="resume-section-content">
                 <h2 class="mb-5">Awards & Certifications</h2>
-                <ul class="fa-ul mb-0">
+                <ul class="fa-ul mb-3">
                     {% for cert in site.awards %}
                     <li>
                         <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
