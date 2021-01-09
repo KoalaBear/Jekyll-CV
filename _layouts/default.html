@@ -108,12 +108,15 @@
         <section class="resume-section" id="education">
             <div class="resume-section-content">
                 <h2 class="mb-5">Education</h2>
-                {% for education in site.educations %}
+                {% assign ordered_education = site.educations | sort: 'time' %}
+                {% for education in ordered_education reversed %}
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">{{ education.title }}</h3>
                         <div class="subheading mb-3">{{ education.subtitle }}</div>
+                        {% if page.education-paragraphs != 0 %}
                         <p>{{ education.paragraph }}</p>
+                        {% endif %}
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">{{ education.time }}</span></div>
                 </div>

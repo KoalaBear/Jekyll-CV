@@ -17,6 +17,7 @@ facebook: ""
 # Experience
 experience-section: 1
 education-section: 1
+education-paragraphs: 1
 skills-section: 1
 interests-section: 1
 projects-section: 1
