@@ -5,7 +5,7 @@ collections:
   - skills
   - projects
   - awards
-interests: "Apart from being a developer, I enjoy most of my time with my friends & family. I also spend my time playing American Pool, an Electric Guitar, a Ukulele, and an instance of Netflix! I'm also a big fan of Rock Music, Digital & Street Art"
+  - interests
 # Where things are
 source              : .
 destination         : ./_site
