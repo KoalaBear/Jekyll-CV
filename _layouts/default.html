@@ -127,7 +127,7 @@
         <section class="resume-section" id="projects">
             <div class="resume-section-content">
                 <h2 class="mb-5">Projects</h2>
-                {% for project in site.projects %}
+                {% for project in site.projects reversed %}
                 <div class="project mb-3">
                     <div class="subheading mb-0">{{ project.title }}</div>
                     <ul class="fa-ul mb-0">
