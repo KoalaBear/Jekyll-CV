@@ -8,7 +8,7 @@ Responsive CV Template [Built for Github Pages in Jekyll]
 1. Fork & Clone the repository
 2. Customize your content
 3. Set your 'Github Pages' branch on your Repo's settings
-4. Enter you live url :)
+4. Enter your brand new site :)
 
 ### Customizing
 
