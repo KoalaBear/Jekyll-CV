@@ -9,8 +9,7 @@ address: Tall Eucalypt Forest
 region: South Australia
 email: koalabeardevelopments@gmail.com
 summary: >
-    An experienced Software Engineer, which mainly works in Web Development & Python based projects.<br />Had also done a couple of projects in Android(native-java), WPF & Unity2D(C#), RPi, Bots & Game Hacking for whitehat/learning purposes (Python), Graphic Design (Photoshop), Source™ maps(Hammer) and more:)
-    I really like diversifying in both the projects I take & the technologies I use! projects are my passion.
+    Hey, nice to meet you! I am the Koala Bear, an experienced Software Engineer which mainly works on the backend. Projects are my passion. And diversification is in my nature. I like moving between technologies & worlds- Digital & Physical.
 linkedin: ""
 github: "https://github.com/koalabear"
 twitter: ""
