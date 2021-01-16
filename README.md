@@ -8,7 +8,7 @@ Responsive CV Template [Built for Github Pages in Jekyll]
 1. Fork & Clone the repository
 2. Customize your content
 3. Set your 'Github Pages' branch on your Repo's settings
-4. Enter you live url :)
+4. Enter your brand new site :)
 
 ### Customizing
 
@@ -24,9 +24,8 @@ The sidebar contains all of the sections (`X_section` variables) set under `_con
 
 #### Content Types
 
-The template currently contains `Experience, Education, Skills & Awards/Certificates` sections.
+The template currently contains `Experience` | `Education` | `Projects` | `Skills` | `Awards/Certificates` sections.
 Feel free to add your own & submit them to the repo for others to use / Request some others by opening a thread on this repo :)
 
 #### Licence
-[MIT](LICENCE.md)
-& Thanks to Bootstrap & StartBootstrap for the design :]
+[MIT](LICENCE.md) & Thanks to Bootstrap(https://getbootstrap.com/) & StartBootstrap(https://startbootstrap.com/) for the design :]
