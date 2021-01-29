@@ -138,7 +138,8 @@
                         {% for feature in project.features %}
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            <a target="_blank" rel="noopener noreferrer" href="{{ feature[1] }}">{{ feature[0] }}</a>
+                            <a {% if feature[1] !=string.Empty %} target="_blank" rel="noopener noreferrer"
+                                href="{{ feature[1] }}" {% else %} href="#!" {% endif %}>{{ feature[0] }}</a>
                         </li>
                         {% endfor %}
                     </ul>

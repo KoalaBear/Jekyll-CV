@@ -1,10 +1,11 @@
 ---
 title: Software Related
 features:
-  Guitar/PMPro WordPress:
-  CSDaily? Frontend:
+  Guitar/PMPro [WordPress]:
+  Daily Game Server Hosting [Frontend & Linux Servers]: 
   City Reports [Android]:
   DLM [Laravel - PHP]:
-  Network Design for a retail chain [course-project]:
-  Quote gen:
+  CV Website Generator [Jekyll]: "https://github.com/KoalaBear/Jekyll-CV" 
+  Network Design for a retail chain [Course Project]:
+  Quote Gen [Chrome Extension]:
 ---
