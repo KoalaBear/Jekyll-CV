@@ -38,11 +38,11 @@
                 {% if page.education-section != 0 %}
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                 {% endif %}
-                {% if page.projects-section != 0 %}
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
-                {% endif %}
                 {% if page.skills-section != 0 %}
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                {% endif %}
+                {% if page.projects-section != 0 %}
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                 {% endif %}
                 {% if page.interests-section != 0 %}
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
@@ -125,6 +125,26 @@
         </section>
         <hr class="m-0" />
         {% endif %}
+        <!-- Skills-->
+        {% if page.skills-section != 0 %}
+        <section class="resume-section" id="skills">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Skills</h2>
+                {% for skill in site.skills reversed %}
+                <div class="subheading mb-3">{{ skill.title }}</div>
+                <ul class="fa-ul mb-3">
+                    {% for feature in skill.features %}
+                    <li>
+                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                        {{ feature }}
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% endfor %}
+            </div>
+        </section>
+        <hr class="m-0" />
+        {% endif %}
         <!-- Projects -->
         {% if page.projects-section != 0 %}
         <section class="resume-section" id="projects">
@@ -143,26 +163,6 @@
                         {% endfor %}
                     </ul>
                 </div>
-                {% endfor %}
-            </div>
-        </section>
-        <hr class="m-0" />
-        {% endif %}
-        <!-- Skills-->
-        {% if page.skills-section != 0 %}
-        <section class="resume-section" id="skills">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Skills</h2>
-                {% for skill in site.skills reversed %}
-                <div class="subheading mb-3">{{ skill.title }}</div>
-                <ul class="fa-ul mb-3">
-                    {% for feature in skill.features %}
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        {{ feature }}
-                    </li>
-                    {% endfor %}
-                </ul>
                 {% endfor %}
             </div>
         </section>
