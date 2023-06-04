@@ -1,6 +1,6 @@
 ---
 title: IOT Related
 features:
-  GrowPlus (Generic Controlled-Environment Agriculture System):
-  CVGates (Computer Vision Gate Management):
+  GrowPlus - Generic Controlled-Environment Agriculture System [RaspberryPi, Python]:
+  CVGates - Computer Vision Gate Management [Django, Tesseract]: "https://github.com/KoalaBear/CVGates"
 ---
