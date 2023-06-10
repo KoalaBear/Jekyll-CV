@@ -131,7 +131,8 @@
             <div class="resume-section-content">
                 <div class="mb-5">
                     <h2 style="margin-bottom: 0 !important;">Skills</h2>
-                    {% for badge in site.skill_badges | sort: 'order_number' %}
+                    {% assign ordered_badges = site.skill_badges | sort: 'order_number' %}
+                    {% for badge in ordered_badges %}
                         <a href="{{ badge.badge_link }}" class="badge badge-{{ badge.badge_type }}" style="min-width:3rem;">
                             {{ badge.text }}
                         </a>
