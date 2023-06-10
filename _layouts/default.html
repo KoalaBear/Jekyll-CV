@@ -150,8 +150,8 @@
         <section class="resume-section" id="projects">
             <div class="resume-section-content">
                 <h2 class="mb-5">Personal Projects</h2>
-                {% assign ordered_projects = site.projects | sort: 'title' %}
-                {% for project in ordered_projects reversed %}
+                {% assign ordered_projects = site.projects | sort: 'order_number' %}
+                {% for project in ordered_projects %}
                 <div class="project mb-3">
                     <div class="subheading mb-0">{{ project.title }}</div>
                     <ul class="fa-ul mb-0">
