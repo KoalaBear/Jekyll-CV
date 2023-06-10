@@ -6,6 +6,7 @@ collections:
   - projects
   - awards
   - interests
+  - skill_badges
 # Where things are
 source              : .
 destination         : ./_site
