@@ -1,6 +1,8 @@
 ---
 title: Environment Related
 features: 
-  - Databases [Elastic, Redis, MySql, SQLite, Mongo]
+  - Databases [Elastic, Redis, Mongo, MySql, SQLite, PostgreSQL]
   - Operating Systems [Linux, OSX, Windows]
+  - Hackintosh-ing
+  - PC Building
 ---
