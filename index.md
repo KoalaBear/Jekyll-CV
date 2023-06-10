@@ -9,8 +9,7 @@ address: Tall Eucalyptus Tree
 region: HaMerkaz
 email: koalabeardevelopments@gmail.com
 summary: >
-    Hey, nice to meet you! I am the KoalaBear, an experienced Software Engineer, with good interpersonal relations and self studying abilities.\n
-    Challenging Projects are my passion, and as you'll be able to tell very soon, I'm a big fan of diversification.
+    Hey, nice to meet you! I am the KoalaBear, an experienced Software Engineer, with good interpersonal relations and self studying abilities. Challenging Projects are my passion, and as you'll be able to tell very soon, I'm a big fan of diversification.
 linkedin: ""
 github: "https://github.com/koalabear"
 twitter: ""
