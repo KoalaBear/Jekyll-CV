@@ -4722,11 +4722,11 @@ a.badge-success:focus, a.badge-success.focus {
 
 .badge-info {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: #10ac84;
 }
 a.badge-info:hover, a.badge-info:focus {
   color: #fff;
-  background-color: #117a8b;
+  background-color: #1dd1a1;
 }
 a.badge-info:focus, a.badge-info.focus {
   outline: 0;
@@ -9981,7 +9981,7 @@ h3 {
 }
 body {
   padding-top: 3.375rem;
-  color: #218c74;
+  color: #e5e0d4;
 }
 
 @media (min-width: 992px) {
@@ -10079,7 +10079,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #10ac84;
 }
 
 .dev-icons {
