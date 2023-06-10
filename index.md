@@ -4,12 +4,13 @@ layout: default
 # Main Screen
 first-name: Bear
 last-name: Koala
-mobile: AU
-address: Tall Eucalypt Forest
-region: South Australia
+mobile: IL
+address: Tall Eucalyptus Tree
+region: HaMerkaz
 email: koalabeardevelopments@gmail.com
 summary: >
-    Hey, nice to meet you! I am the Koala Bear, an experienced Software Engineer which mainly works on the backend. Projects are my passion. And diversification is in my nature. I like moving between technologies & worlds- Digital & Physical.
+    Hey, nice to meet you! I am the KoalaBear, an experienced Software Engineer, with good interpersonal relations and self studying abilities.\n
+    Challenging Projects are my passion, and as you'll be able to tell very soon, I'm a big fan of diversification.
 linkedin: ""
 github: "https://github.com/koalabear"
 twitter: ""
