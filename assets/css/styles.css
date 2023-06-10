@@ -4722,11 +4722,11 @@ a.badge-success:focus, a.badge-success.focus {
 
 .badge-info {
   color: #fff;
-  background-color: #10ac84;
+  background-color: #1a705c;
 }
 a.badge-info:hover, a.badge-info:focus {
   color: #fff;
-  background-color: #1dd1a1;
+  background-color: #218C74;
 }
 a.badge-info:focus, a.badge-info.focus {
   outline: 0;
@@ -6075,7 +6075,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #218c74 !important;
+  background-color: #1a705c !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
